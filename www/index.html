@@ -1,0 +1,48 @@
+<html>
+  <div class="container">
+    <label><center><b>Email</b></center></label>
+    <center><input id="eml" type="text" placeholder="Enter Email" name="eml" value="email123" required></center>
+
+    <label><center><b>Username</b></center></label>
+    <center><input id="uname" type="text" placeholder="Enter Username" name="uname" value="user123" required></center>
+
+    <label><center><b>Password</b></center></label>
+    <center><input id="psw" type="password" placeholder="Enter Password" name="psw" required></center>
+
+    <button id="storePersonalInfo">Register</button>
+    <center><input type="checkbox" checked="checked"> Remember me</center>
+  </div>
+  <script src="./js/index.js">
+</script>
+</html>
+<style>
+/* Full-width inputs */
+ input[type=text], input[type=password], input[type=email] {
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+     display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 37.5%;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+ @media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+}
+</style>
