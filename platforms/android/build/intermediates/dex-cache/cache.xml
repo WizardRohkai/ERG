@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\DATA\Desktop\Sharing is Caring\Coding\Cordova\ERG\platforms\android\build\intermediates\exploded-aar\android\CordovaLib\unspecified\debug\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="80e8c3cbbb5888e767028ced3676bf99754adf44">
+        <dex dex="D:\DATA\Desktop\Sharing is Caring\Coding\Cordova\ERG\platforms\android\build\intermediates\pre-dexed\debug\CordovaLib-unspecified-debug_a9a620a20568f7dbcd686f3491d6563471bbffd4.jar" />
+    </item>
+
+</items>
