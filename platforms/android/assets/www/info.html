@@ -1,0 +1,78 @@
+<center><h1>Info:</h1></center><br>
+
+
+  <div class="container">
+    <label><center><b>Name</b></center></label>
+    <center><input id="name" type="text" placeholder=" Enter Name" name="Name" required></center>
+
+    <label><center><b>Surname</b></center></label>
+    <center><input id="sname" type="text" placeholder="Enter Surname" name="Surname" required></center>
+
+    <label><center><b>ID Number</b></center></label>
+    <center><input id="ID" type="text" placeholder="Enter ID Number" name="ID" maxlength="13" onsubmit="Save()" required></center>
+
+      <label><center><b>Gender</b></center></label><br>
+      <center><select id="mySelect" onchange="myFunction()">
+              <option value="Male">Male
+              <option value="Female">Female
+              <option value="Other">Other
+              </select>
+      </center><br>
+
+
+    <label><center><b>Allergies</b></center></label>
+    <center><input id="aller" type="text" placeholder="Enter Allergies" name="Alleries" required></center>
+
+    <label><center><b>Medical Conditions</b></center></label>
+    <center><input id="conditions" type="text" placeholder="Enter Medical conditions" name="Conditions" required></center>
+
+    <label><center><b>Emergency Contact no.</b></center></label>
+    <center><input id="contact" type="text" placeholder="Enter  Emergency Contact no." name="Contact" required></center>
+
+    <label><center><b>Medical insurance Company</b></center></label>
+    <center><input id="company" type="text" placeholder="Enter Medical insurance company" name="Conditions" required></center>
+
+    <label><center><b>Medical insurance ID</b></center></label>
+    <center><input id="insurance id" type="text" placeholder="Enter Medical insurance ID" name="Medical ID" required></center><br>
+
+    <button id="user" type="submit">Save</button>
+
+  </div>
+
+<style>
+/* Bordered form */
+form {
+    border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+ input[type=text], input[type=password], input[type=email] {
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+     display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 37.5%;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+ @media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+}
+</style>
+<script src="./js/index.js"></script>
