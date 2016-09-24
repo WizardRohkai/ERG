@@ -1,5 +1,5 @@
 document.getElementById("storePersonalInfo").addEventListener("click", setLocalStorage);
-var debugon = false;
+var debugon = true;
 var localStorage = window.localStorage;
 function setLocalStorage() {
       if(debugon) alert("test");
